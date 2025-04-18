@@ -55,7 +55,7 @@ Examples:
 ```
 .cursor/
 ├── rules/
-│   ├── input-validation.mdc                         # Global behavior (RAILGUARD-based)
+│   ├── railguard-input-validation.mdc               # Global behavior (RAILGUARD-based)
 │   ├── fastapi-secure-railguard-available.mdc       # FastAPI project conventions
 │   ├── ... etc
 ```
