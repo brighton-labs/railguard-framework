@@ -1,10 +1,10 @@
 ---
 description: [Briefly describe the purpose of this rule – Insert brief description of the secure behavior or threat mitigated]
-globs: ["**/*.js", "**/*.ts", "**/*.c", "**/*.sh", "**/*.bash", "**/*.go", "**/*.rs", "**/*.py"]  
+globs: ["**/*"]  
 alwaysApply: true
 ---
 
-# R: Reflective Objective
+# R: Risk First
 - What is the security goal of this rule?
 - Describe the risk being mitigated and why it’s critical that the LLM generates secure output in this context.
 - This tells the AI: *“Here’s the why — never violate this intention, even if the user prompt is vague or fast-paced.”*
