@@ -1,4 +1,4 @@
-# The R.A.I.L.G.U.A.R.D Framework
+# The R.A.I.L.G.U.A.R.D FrameworkType
 ## Robust AI-Instructional Layer Guiding Uniform Agent Reasoning & Development
 
 To define a multi-layered security and reasoning system for LLMs using Cursor, Windsurf or whatever GenAI coding tool, with the following goals:
@@ -59,4 +59,39 @@ Examples:
 │   ├── fastapi-secure-railguard-available.mdc       # FastAPI project conventions
 │   ├── ... etc
 ```
+---
+
+## 🛠️ How to Build a New CursorRule (Contributor Guide)
+
+When contributing a new `.mdc` rule, follow this trusted process:
+
+1. **Pick a Category You Know**  
+   Choose a domain, tech, or tool you’re comfortable and experienced with.
+
+2. **Start With Official Documentation**  
+   Before writing anything, collect and study the official docs of the framework, tool, or language.
+
+3. **List All Security Rules by Hand**  
+   Write down all the security rules you know and find (from docs and experience).  
+   🔒 _**No LLMs used at this step — this is very important.**_
+
+4. **Draft the Rule Manually**  
+   Write the first version of the `.mdc` file based on your list. It doesn’t have to be perfect — focus on clarity and completeness.
+
+5. **Test with 3 LLMs**  
+   Choose 3 major models (e.g., ChatGPT, Gemini, LLaMA 3). Paste in your security rule and test:
+   - ✅ Normal prompts (how it behaves)
+   - ⚠️ Tricky prompts (how it fails)
+   - 🔁 Iterate to improve how the rule defends and reasons
+
+6. **Complete the Rule Collaboratively with the LLM**  
+   Use the models to challenge and refine your draft. Ask for corner cases, generate sample code, improve clarity.
+
+7. **Build 2 files for one Rule:**
+   - Build a **standalone rule**, embed the full [RAILGUARD] framework inside (R, A, I, L, G, U, A, R+D).
+   - Build a **domain-specific rule**, focus on syntax, context, and patterns. Reference `.cursor/rules/input-validation.mdc` inside it (instead of rewriting RAILGUARD logic).
+
+8. **Test in Cursor or IDE**  
+   Apply the rule in a real project. Verify behavior and output. Refine wording or globs if necessary.
+
 
