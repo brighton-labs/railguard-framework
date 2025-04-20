@@ -84,7 +84,7 @@ When contributing a new `.mdc` rule, follow this trusted process:
    - ⚠️ Tricky prompts (how it fails)
    - 🔁 Iterate to improve how the rule defends and reasons
 
-6. **Complete the Rule Collaboratively with the LLM**  
+6. **Complete the Rule Collaboratively with the LLMs**  
    Use the models to challenge and refine your draft. Ask for corner cases, generate sample code, improve clarity.
 
 7. **Build 2 files for one Rule:**
