@@ -94,4 +94,8 @@ When contributing a new `.mdc` rule, follow this trusted process:
 8. **Test in Cursor or IDE**  
    Apply the rule in a real project. Verify behavior and output. Refine wording or globs if necessary.
 
+---
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
