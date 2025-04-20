@@ -1,4 +1,4 @@
-# The R.A.I.L.G.U.A.R.D FrameworkType
+# The R.A.I.L.G.U.A.R.D Framework
 ## Robust AI-Instructional Layer Guiding Uniform Agent Reasoning & Development
 
 To define a multi-layered security and reasoning system for LLMs using Cursor, Windsurf or whatever GenAI coding tool, with the following goals:
